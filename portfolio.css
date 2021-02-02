@@ -151,12 +151,14 @@ img {
 }
 
 /* hero */
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .container .filter-button {
   display: flex;
   justify-content: center;
-
-  padding-top: 94px;
 }
 
 .filter-button .item:not(:last-child) {
@@ -190,15 +192,15 @@ button {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-
   margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .portfolio .card {
+  width: 370;
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
 .portfolio .card:nth-child(3n) {
   margin-right: 0;
 }
@@ -214,6 +216,7 @@ button {
   letter-spacing: 0.06em;
   text-decoration: none;
 }
+
 .portfolio .card .title {
   margin-bottom: 4px;
 }
@@ -227,6 +230,7 @@ button {
   line-height: 1.9;
   color: var(--primery-text-color);
 }
+
 .portfolio .link {
   border: 1px solid #eeeeee;
   display: block;
